@@ -1,0 +1,19 @@
+
+Calculating line lengths and statistics
+
+Go to Layer → Add Layer → Add Vector Layer ➢ Add the file ne_10m_railroads_north_america.
+Open Attribute Table
+18.Press Toggle Editing button, on Attribute table window toolbar then we have to add length attribute. Click on “Open field calculator” or press “Ctrl+i”
+19. In field calculator enter following values.$length/1000
+20.Now we have to generate Statistics. Go to Vector > Analysis Tools > Basic statics for numeric fields.
+21.Select the railroads layer in “Input vector layer”. Select “length” attribute in “Field to calculate statistics on”.
+22.We have to save the result. Click on button and select “Save to file...”
+23.Select the path and enter the file name “total-length” extension will be “.html” and click on “Save”.
+24. Now click on Run button. It will generate statistics.
+ 
+
+
+
+
+ 
+
